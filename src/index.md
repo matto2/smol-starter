@@ -1,11 +1,27 @@
 ---
-title: Smol 11ty Starter
+title: Tamra’s Checklist
 layout: page.njk
 ---
 
 ## {{ meta.siteDescription }}
 
-Created by Stephanie Eckles - [@5t3ph](https://twitter.com/5t3ph) - author of [11ty.Rocks](https://11ty.rocks), [ModernCSS.dev](https://moderncss.dev), and [SmolCSS.dev](https://smolcss.dev).
+
+<form action="https://api.sheetmonkey.io/form/aLWDg3HrHuXhRqJ3HamiDt" method="post">
+  <!-- Put HTML input fields in here and see how they fill up your sheet -->
+
+<label><input type="checkbox" name="I streched today" />&nbsp;I stretched today</label>
+
+  <label>Notes: <input type="text" name="Notes" required /></label>
+
+
+  <label>More Notes: <input type="text" name="Example Header" required /></label>
+  <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+
+  <p><input type="submit" value="Submit" />
+</form> 
+
+
+<!-- Created by Stephanie Eckles - [@5t3ph](https://twitter.com/5t3ph) - author of [11ty.Rocks](https://11ty.rocks), [ModernCSS.dev](https://moderncss.dev), and [SmolCSS.dev](https://smolcss.dev). 
 
 ### Quick Start
 
@@ -38,10 +54,10 @@ Created by Stephanie Eckles - [@5t3ph](https://twitter.com/5t3ph) - author of [1
 
 Icing chocolate fruitcake bear claw bonbon. Ice cream tiramisu sesame snaps marshmallow carrot cake sesame snaps. Powder jelly-o soufflé powder dragée caramels jelly-o chupa chups. Sweet roll chocolate cake candy canes wafer lollipop caramels chupa chups. Wafer powder donut powder croissant donut ice cream macaroon fruitcake. Donut powder fruitcake bear claw liquorice gingerbread toffee. Powder biscuit marzipan.
 
-<!-- Provided within _data/catpic.js -->
+Provided within _data/catpic.js 
 
 ![cat of the day]({{ catpic }})
 
 Macaroon cheesecake cupcake cotton candy jujubes cupcake. Chocolate sweet sugar plum candy dessert sesame snaps pie. Chocolate cake carrot cake cake macaroon cotton candy brownie tart sugar plum. Icing chocolate caramels macaroon marzipan cookie candy. Sugar plum pie sweet roll chocolate bar chocolate cake jujubes jelly beans lollipop. Caramels muffin toffee bonbon icing wafer toffee tiramisu lemon drops. Sweet jujubes fruitcake bonbon cake donut. Liquorice sweet roll bonbon chocolate bar candy canes marshmallow biscuit chocolate cake marshmallow.
 
-Cupcake pudding oat cake. Halvah candy canes gingerbread tiramisu chupa chups lollipop. Toffee toffee cake. Jelly beans jelly beans chupa chups liquorice dessert donut caramels. Cake caramels jelly-o cake. Cake sweet donut soufflé pudding pie fruitcake gummies.
+Cupcake pudding oat cake. Halvah candy canes gingerbread tiramisu chupa chups lollipop. Toffee toffee cake. Jelly beans jelly beans chupa chups liquorice dessert donut caramels. Cake caramels jelly-o cake. Cake sweet donut soufflé pudding pie fruitcake gummies. -->

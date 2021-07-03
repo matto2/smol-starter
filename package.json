@@ -26,6 +26,8 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
-    "node-fetch": "^2.6.1"
+    "googleapis": "^80.1.0",
+    "node-fetch": "^2.6.1",
+    "uniq": "^1.0.1"
   }
 }

@@ -15,7 +15,7 @@ return fetch(`https://api.stormglass.io/v2/weather/point?lat=${lat}&lng=${lng}&p
 }).then((response) => response.json()).then((jsonData) => {
  
   return {
-    windspeed: jsonData.hours.forEach(d => d.windSpeed)
+    windspeed: jsonData.hours
     };
 });
 };

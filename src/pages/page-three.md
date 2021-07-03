@@ -5,7 +5,7 @@ title: Page Three
 <form action="https://api.sheetmonkey.io/form/aLWDg3HrHuXhRqJ3HamiDt" method="post">
   <!-- Put HTML input fields in here and see how they fill up your sheet -->
 
-<label>I stretched today <input type="checkbox" name="I streched today" /></label>
+<label><input type="checkbox" name="I streched today" />&nbsp;I stretched today</label>
 
   <label>Notes: <input type="text" name="Notes" required /></label>
 

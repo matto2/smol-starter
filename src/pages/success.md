@@ -1,5 +1,7 @@
 ---
-title: Success!
+title:
 ---
 
-# Your form was successfully submitted.
+# Success! your notes were recorded.
+
+## [Return](https://tamras-list.netlify.app)

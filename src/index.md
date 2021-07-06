@@ -9,7 +9,7 @@ layout: page.njk
 <form action="https://api.sheetmonkey.io/form/aLWDg3HrHuXhRqJ3HamiDt" method="post">
   <!-- Put HTML input fields in here and see how they fill up your sheet -->
 
-<label><input type="checkbox" name="I streched today" value="yes" />&nbsp;I stretched today</label>
+<label><input type="checkbox" name="I streched today" value="yes" />&nbsp;I stretched today!</label>&nbsp;
 
   <label>Notes: <input type="text" name="Notes" /></label>
 

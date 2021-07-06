@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer>
+const lat = 37;
+const lon = -122;
+const key = "e564fdfc977ea8aebe35f267db176bdc";
+const url = `api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={key}&units=imperial`;
+
+fetch(url).then((response) => response.json()).then((jsonData) => {
+
+console.log (jsonData);
+document.querySelector("h2").textContent=jsonData.main.temp+"F";
+
+  // Do something with response data.
+});
+
+    </script>
+</head>
+<body>
+    
+<h1 class="cityname"></h1>
+<h2></h2>
+
+
+
+</body>
+</html>

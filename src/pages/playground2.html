@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer>
+const lat = 36.97;
+const lon = -122.02;
+const city = "Aptos";
+const key = "e564fdfc977ea8aebe35f267db176bdc";
+const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=imperial`;
+
+fetch(url).then((response) => response.json()).then((jsonData) => {
+
+console.log (jsonData);
+document.querySelector("h1.cityname").textContent=jsonData.name;
+document.querySelector("h2").textContent=jsonData.main.temp+"F";
+
+  // Do something with response data.
+});
+
+    </script>
+</head>
+<body>
+    
+<h1 class="cityname"></h1>
+<h2></h2>
+
+
+
+</body>
+</html>
